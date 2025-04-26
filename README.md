@@ -1,24 +1,24 @@
 ```mermaid
 classDiagram
     class AparelhoTelefonico {
-        #ligar(String numero)
-        #atender()
-        #iniciarCorreioVoz()
+        +ligar(String numero)
+        +atender()
+        +iniciarCorreioVoz()
     }
 
     class Iphone {
     }
 
     class ReprodutorMusical {
-        #tocar()
-        #pausar()
-        #SelecionarMusica(String musica)
+        +tocar()
+        +pausar()
+        +selecionarMusica(String musica)
     }
 
     class NavegadorInternet {
-        #exibirPagina(String url)
-        #adicionarNovaAba()
-        #atualizarPagina()
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
     }
 
     <<interface>> AparelhoTelefonico
